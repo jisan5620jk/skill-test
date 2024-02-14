@@ -1,0 +1,170 @@
+/*
+
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+
+*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+:root {
+  /* font family */
+  --ff-body: 'Lato', sans-serif;
+  --ff-title: 'Oswald', sans-serif;
+  --ff-main-title: 'Bebas Neue', sans-serif;
+  --ff-fontawesome: "Font Awesome 6 Pro";
+  /*theme color*/
+  --common-white: #ffffff;
+  --common-black: #000;
+  --common-bg: #171717;
+  --text-body: #727272;
+  --theme-1: #404f6c;
+  --theme-2: #030c42;
+  --border-1: #ffffff34;
+  --border-2: #c0bebebd;
+  --border-3: #c0bebe;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: left;
+  font-family: var(--ff-body);
+}
+
+p {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--theme-2);
+  font-style: normal;
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a {
+  color: #02c0bc;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  text-decoration: none;
+  color: #f15503;
+}
+
+i {
+  display: inline-block;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  background: transparent;
+}
+

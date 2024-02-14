@@ -1,0 +1,152 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .brand-section {
+    margin-top: -232px;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .brand-section {
+    margin-top: -205px;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  section.banner-section {
+    height: 628px;
+  }
+
+  .banner-title h1 {
+    font-size: 128px;
+    line-height: 106px;
+  }
+
+  section.history-section {
+    height: 706px;
+  }
+
+  .history-desc p {
+    width: 618px;
+  }
+
+  .brand-section {
+    margin-top: -205px;
+  }
+
+  .climb-desc p {
+    width: 356px;
+  }
+
+  .tab-content-area {
+    height: 400px;
+  }
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  section.banner-section {
+    height: 528px;
+  }
+
+  .banner-title h1 {
+    font-size: 100px;
+    line-height: 86px;
+  }
+
+  section.history-section {
+    height: 650px;
+    background: url(../images/main-thumb/history-bg.jpg) no-repeat left;
+  }
+
+  .history-desc p {
+    margin: -18px 0 0 0;
+    width: 514px;
+  }
+
+  .brand-section {
+    margin-top: -225px;
+  }
+
+  .climb-area {
+    gap: 0;
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .climb-desc p {
+    width: 490px;
+    margin: -12px 0 40px;
+  }
+
+  .tab-content-area {
+    height: 400px;
+  }
+
+  .footer-desc p {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+/* small mobile :320px. */
+@media only screen and (max-width: 575px) {
+  section.banner-section {
+    height: 350px;
+  }
+
+  .banner-title h1 {
+    font-size: 64px;
+    line-height: 58px;
+  }
+
+  section.history-section {
+    height: 806px;
+    background: url(../images/main-thumb/history-bg.jpg) no-repeat left;
+  }
+
+  .history-desc p {
+    margin: -18px 0 0 0;
+    width: 300px;
+  }
+
+  .brand-section {
+    margin-top: -246px;
+  }
+
+  .brand-thumb img {
+    padding: 0 10px;
+  }
+
+  .climb-area {
+    gap: 0;
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .climb-desc p {
+    width: 312px;
+    margin: -12px 0 40px;
+  }
+
+  .tab-btn button {
+    padding: 4px 22px;
+  }
+
+  .tab-content-area {
+    height: 400px;
+  }
+
+  .tab-content-box {
+    width: 296px;
+    padding: 12px 20px;
+    margin-top: 100px;
+    margin-left: 0;
+  }
+
+  .footer-desc p {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
